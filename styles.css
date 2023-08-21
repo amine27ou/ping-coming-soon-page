@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.logo{
+    text-align: center;
+    margin: 10px;
+}
+.launching{
+    text-align: center;
+}
+.launching h1,
+.launching p{
+    color: hsl(0, 0%, 59%);
+}
+.launching strong{
+    color: black;
+}
+.input-field{
+    text-align: center;
+    margin: 25px 0;
+    position: relative;
+}
+.input-field .error-msg{
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+.input-field #email.error{
+    border: 2px solid red;
+}
+.input-field .error-msg.error{
+    display: block;
+}
+.input-field .error-container{
+    position: absolute;
+    left: 28%;
+}
+.input-field input[type="email"]{
+    border-radius: 30px;
+    border: 1px solid black;
+    outline: none;
+    height: 35px;
+    width: 30%;
+    padding: 10px;
+}
+.input-field input[type="button"]{
+    height: 35px;
+    width: 15%;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+    transition: all .3s;
+    cursor: pointer;
+}
+.input-field input[type="button"]:hover{
+    background-color: hsl(223, 94%, 73%);
+}
+.content img{
+    width: 550px;
+}
+.content{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+footer .social i{
+    color: hsl(223, 87%, 63%);
+    border: 1px solid hsl(0, 0%, 59%);
+    padding: 5px;
+    width: 30px;
+    height: 28px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all .3s;
+}
+footer .social i:hover{
+    color: hsl(0, 0%, 59%);
+}
+footer .social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer .copyright p{
+    color: hsl(0, 0%, 59%);
+    font-size: 13px;
+}
