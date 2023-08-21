@@ -82,7 +82,9 @@ footer .social i{
     transition: all .3s;
 }
 footer .social i:hover{
-    color: hsl(0, 0%, 59%);
+    color: white;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
 }
 footer .social{
     display: flex;
@@ -92,4 +94,20 @@ footer .social{
 footer .copyright p{
     color: hsl(0, 0%, 59%);
     font-size: 13px;
+}
+@media(max-width:728px){
+    .input-field form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .input-field input[type="email"]{
+        width:55%;
+    }
+    .input-field input[type="button"]{
+        width:20%;
+    }
+
 }
